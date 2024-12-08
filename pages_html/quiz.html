@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script type="text/javascript" src="../js/quiz.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Quiz
+        </h1>
+    </header>
+    <main>
+        <nav>
+            <a href="../index.html">Main page</a>
+            <a href="skills.html">My skills</a>
+            <a href="course.html">My courses</a>
+            <a href="experience.html">My Experiences</a>
+            <a href="studies.html">My studies</a>
+            <a href="passion.html">My passions</a>
+            <a href="quiz.html" id="menu_actuel">Quiz</a>
+            <a href="contact.html">Contact me</a>
+        </nav>
+        <form action="../index.html" method="post">
+            <fieldset>
+                <legend>Quiz</legend>
+                <table class="table">
+                    <tr>
+                        <td>
+                            <label for="question1">What does HTML stand for?</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question1_incorrect">
+                            <img src="../images/Eo_circle_green_checkmark.svg.png" alt="correct" class="correct" id="question1_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question1" name="question1" value="answer1">
+                            <label for="answer1"> Hyper Text Markup Language</label><br> <!--correct-->
+                            <input type="radio" id="question1" name="question1" value="answer2">
+                            <label for="answer2"> Hyperlinks and Text Markup Language</label><br>
+                            <input type="radio" id="question1" name="question1" value="answer3">
+                            <label for="answer3"> Home Tool Markup Language</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question2">Choose the correct HTML element for the largest heading:</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question2_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question2_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question2" name="question2" value="answer1">
+                            <label for="answer1"> &lt;h6&gt;</label><br>
+                            <input type="radio" id="question2" name="question2" value="answer2">
+                            <label for="answer2"> &lt;head&gt;</label><br>
+                            <input type="radio" id="question2" name="question2" value="answer3">
+                            <label for="answer3">&lt;heading&gt;</label><br>
+                            <input type="radio" id="question2" name="question2" value="answer4">
+                            <label for="answer4">&lt;h1&gt;</label><br><!--correct-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question3">What is the correct HTML element for inserting a line break?</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question3_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question3_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question3" name="question3" value="answer1">
+                            <label for="answer1"> &lt;lb&gt;</label><br>
+                            <input type="radio" id="question3" name="question3" value="answer2">
+                            <label for="answer2"> &lt;br&gt;</label><br> <!--correct-->
+                            <input type="radio" id="question3" name="question3" value="answer3">
+                            <label for="answer3"> &lt;break&gt;</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question4">What is the correct HTML for adding a background color?</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question4_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question4_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question4" name="question4" value="answer1">
+                            <label for="answer1"> &lt;body style="background-color:yellow;"&gt;</label><br>
+                            <!--correct-->
+                            <input type="radio" id="question4" name="question4" value="answer2">
+                            <label for="answer2"> &lt;body bg="yellow"&gt;</label><br>
+                            <input type="radio" id="question4" name="question4" value="answer3">
+                            <label for="answer3"> &lt;background&gt;yellow&lt;/background&gt;</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question5">Choose the correct HTML element to define important text</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question5_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question5_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question5" name="question5" value="answer1">
+                            <label for="answer1"> &lt;important&gt;</label><br>
+                            <input type="radio" id="question5" name="question5" value="answer2">
+                            <label for="answer2"> &lt;b&gt;</label><br>
+                            <input type="radio" id="question5" name="question5" value="answer3">
+                            <label for="answer3"> &lt;strong&gt;</label><br> <!--correct-->
+                            <input type="radio" id="question5" name="question5" value="answer4">
+                            <label for="answer3"> &lt;i&gt;</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question6">How can you open a link in a new tab/browser window?</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question6_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question6_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question6" name="question6" value="answer1">
+                            <label for="answer1"> &lt;a href="url" new&gt;</label><br>
+                            <input type="radio" id="question6" name="question6" value="answer2">
+                            <label for="answer2"> &lt;a href="url" target="new"&gt;</label><br>
+                            <input type="radio" id="question6" name="question6" value="answer3">
+                            <label for="answer3"> &lt;a href="url" target="_blank"&gt;</label><br> <!--correct-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question7">Which of these elements are all &lt;table&gt; elements?</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question7_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question7_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question7" name="question7" value="answer1">
+                            <label for="answer1"> &lt;table&gt;&lt;tr&gt;&lt;td&gt;</label><br> <!--correct-->
+                            <input type="radio" id="question7" name="question7" value="answer2">
+                            <label for="answer2"> &lt;table&gt;&lt;tr&gt;&lt;tt&gt;</label><br>
+                            <input type="radio" id="question7" name="question7" value="answer3">
+                            <label for="answer3"> &lt;thead&gt;&lt;body&gt;&lt;tr&gt;</label><br>
+                            <input type="radio" id="question7" name="question7" value="answer3">
+                            <label for="answer3"> &lt;table&gt;&lt;head&gt;&lt;tfoot&gt;</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question8">How can you make a numbered list?</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question8_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question8_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question8" name="question8" value="answer1">
+                            <label for="answer1"> &lt;list&gt;</label><br>
+                            <input type="radio" id="question8" name="question8" value="answer2">
+                            <label for="answer2"> &lt;dl&gt;</label><br>
+                            <input type="radio" id="question8" name="question8" value="answer3">
+                            <label for="answer3"> &lt;ol&gt;</label><br> <!--correct-->
+                            <input type="radio" id="question8" name="question8" value="answer4">
+                            <label for="answer3"> &lt;ul&gt;</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question9">What is the correct HTML for making a checkbox?</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question9_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question9_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question9" name="question9" value="answer1">
+                            <label for="answer1"> &lt;check&gt;</label><br>
+                            <input type="radio" id="question9" name="question9" value="answer2">
+                            <label for="answer2"> &lt;checkbox&gt;</label><br>
+                            <input type="radio" id="question9" name="question9" value="answer3">
+                            <label for="answer3"> &lt;input type="checkbox"&gt;</label><br> <!--correct-->
+                            <input type="radio" id="question9" name="question9" value="answer4">
+                            <label for="answer3"> &lt;input type="check"&gt;</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="question10">What is the correct HTML for making a text input field?</label>
+                            <img src="../images/X.png" alt="incorrect" class="incorrect" id="question10_incorrect">
+                            <img src="../images/checkmark.png" alt="correct" class="correct" id="question10_correct">
+                        </td>
+                        <td>
+                            <input type="radio" id="question10" name="question10" value="answer1">
+                            <label for="answer1"> &lt;input type="textfield"&gt;</label><br>
+                            <input type="radio" id="question10" name="question10" value="answer2">
+                            <label for="answer2"> &lt;textfield&gt;</label><br>
+                            <input type="radio" id="question10" name="question10" value="answer3">
+                            <label for="answer3"> &lt;textinput type="text"&gt;</label><br>
+                            <input type="radio" id="question10" name="question10" value="answer4">
+                            <label for="answer3"> &lt;input type="text"&gt;</label><br> <!--correct-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" value="verify" id="finish" onclick="verify()">Finish Quiz</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
