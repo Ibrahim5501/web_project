@@ -12,10 +12,6 @@ header {
   width: 100%;
   margin: auto;
 }
-.img_center {
-  margin: auto;
-  display: block;
-}
 header h1 {
   font-size: 40px;
   font-style: italic;
@@ -52,20 +48,6 @@ main {
   text-align: center;
   font-style: normal;
 }
-article {
-  width: 60%;
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-main h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  color: red;
-  text-decoration: underline red dotted;
-  font-weight: bold;
-  font-style: italic;
-}
 main p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -73,11 +55,6 @@ main p {
   font-style: normal;
   text-align: center;
   text-indent: 20px;
-}
-.img_article {
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
 }
 input[type="text"]{
   width: 200px;
